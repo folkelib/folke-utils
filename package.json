@@ -1,0 +1,24 @@
+{
+  "name": "folke-utils",
+  "version": "1.0.0",
+  "description": "Some utility functions",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/folkelib/folke-utils.git"
+  },
+  "author": "Folke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/folkelib/folke-utils/issues"
+  },
+  "homepage": "https://github.com/folkelib/folke-utils#readme",
+  "typings": "dist/index.d.ts",
+  "dependencies": {
+    "knockout": "^3.4.0"
+  }
+}
