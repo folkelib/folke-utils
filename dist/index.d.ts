@@ -1,3 +1,3 @@
-import * as ko from 'knockout';
+/// <reference types="knockout" />
 export declare function twoDigits(value: number): string | number;
-export declare function isObservable<T>(o: T | ko.Observable<T>): o is ko.Observable<T>;
+export declare function isObservable<T>(o: T | KnockoutObservable<T>): o is KnockoutObservable<T>;

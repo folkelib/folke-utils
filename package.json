@@ -19,6 +19,7 @@
   "homepage": "https://github.com/folkelib/folke-utils#readme",
   "typings": "dist/index.d.ts",
   "dependencies": {
-    "knockout": "^3.4.0"
+    "knockout": "^3.4.0",
+    "@types/knockout": "^3.4.38"
   }
 }
